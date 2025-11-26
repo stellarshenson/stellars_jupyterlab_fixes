@@ -8,12 +8,12 @@
 
 Metapackage that installs all Stellars JupyterLab fixes in one command.
 
-These fixes address papercuts and annoyances in JupyterLab 4 that were bothering me enough to do something about them. They are intended as temporary workarounds until the JupyterLab team incorporates proper solutions into the mainline - at which point this repo will happily become obsolete.
+These fixes address papercuts and annoyances in JupyterLab 4 that were bothering us enough to do something about them. They are intended as temporary workarounds until the JupyterLab team incorporates proper solutions into the mainline - at which point this repo will happily become obsolete.
 
 > [!WARNING]
 > These fixes monkey-patch JupyterLab internals and may break with future JupyterLab updates. Use at your own risk. If something explodes, you get to keep both pieces.
 
-*Yes, I wrote an entire metapackage just to fix scroll positions and font alignments. No, I don't have better things to do. Okay, I do, but here we are.*
+*Yes, we wrote an entire metapackage just to fix scroll positions and font alignments. No, we don't have better things to do. Okay, we do, but here we are.*
 
 ## Installation
 
