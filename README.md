@@ -8,6 +8,13 @@
 
 Metapackage that installs all Stellars JupyterLab fixes in one command.
 
+These fixes address papercuts and annoyances in JupyterLab 4 that were bothering me enough to do something about them. They are intended as temporary workarounds until the JupyterLab team incorporates proper solutions into the mainline - at which point this repo will happily become obsolete.
+
+> [!WARNING]
+> These fixes monkey-patch JupyterLab internals and may break with future JupyterLab updates. Use at your own risk. If something explodes, you get to keep both pieces.
+
+*Yes, I wrote an entire metapackage just to fix scroll positions and font alignments. No, I don't have better things to do. Okay, I do, but here we are.*
+
 ## Installation
 
 ```bash
@@ -16,10 +23,10 @@ pip install stellars_jupyterlab_fixes
 
 ## Included Fixes
 
-- **jupyterlab_change_ui_font_size_fix** - Fix file browser alignment when changing UI font size
-- **jupyterlab_jump_to_definition_fix** - Fix "jump to definition" for notebooks using Jedi in kernel environment
-- **jupyterlab_markdown_switch_tab_scrolling_fix** - Prevent markdown scroll drift when switching tabs
-- **jupyterlab_markdown_viewer_toc_fix** - Fix broken TOC navigation and anchor links in Markdown Viewer
+- [jupyterlab_change_ui_font_size_fix](https://github.com/stellarshenson/jupyterlab_change_ui_font_size_fix) - Fix file browser alignment when changing UI font size
+- [jupyterlab_jump_to_definition_fix](https://github.com/stellarshenson/jupyterlab_jump_to_definition_fix) - Fix "jump to definition" for notebooks using Jedi in kernel environment
+- [jupyterlab_markdown_switch_tab_scrolling_fix](https://github.com/stellarshenson/jupyterlab_markdown_switch_tab_scrolling_fix) - Prevent markdown scroll drift when switching tabs
+- [jupyterlab_markdown_viewer_toc_fix](https://github.com/stellarshenson/jupyterlab_markdown_viewer_toc_fix) - Fix broken TOC navigation and anchor links in Markdown Viewer
 
 ## Requirements
 
