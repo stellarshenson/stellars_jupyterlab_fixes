@@ -9,3 +9,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 2. **Task - README and PyPI release**: Updated README with GitHub links to fix repos, warning about temporary nature, self-deprecating humor. Published to PyPI<br>
    **Result**: README updated with fix repo links, GitHub warning block, description about temporary workarounds. Published v1.0.2 to PyPI at https://pypi.org/project/stellars-jupyterlab-fixes/1.0.2/
+
+3. **Task - Drop Python 3.9 support** (v1.0.5): Removed Python 3.9 from supported versions<br>
+   **Result**: Updated `pyproject.toml` to set `requires-python = ">=3.10"` and removed `Programming Language :: Python :: 3.9` classifier. Published to PyPI at https://pypi.org/project/stellars-jupyterlab-fixes/1.0.5/
