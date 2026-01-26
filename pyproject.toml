@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "stellars_jupyterlab_fixes"
-version = "1.0.7"
+version = "1.0.8"
 description = "Metapackage aggregating all Stellars JupyterLab fixes"
 readme = "README.md"
 license = {text = "MIT"}
