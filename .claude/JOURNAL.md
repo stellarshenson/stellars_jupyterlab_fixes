@@ -12,3 +12,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 3. **Task - Drop Python 3.9 support** (v1.0.5): Removed Python 3.9 from supported versions<br>
    **Result**: Updated `pyproject.toml` to set `requires-python = ">=3.10"` and removed `Programming Language :: Python :: 3.9` classifier. Published to PyPI at https://pypi.org/project/stellars-jupyterlab-fixes/1.0.5/
+
+4. **Task - Add other_file_type_menu_fix and update config** (v1.0.9): Added `jupyterlab_other_file_type_menu_fix` dependency and refreshed project configuration<br>
+   **Result**: Added `jupyterlab_other_file_type_menu_fix` to `pyproject.toml` dependencies and `README.md` included fixes list. Bumped version from 1.0.8 to 1.0.9 in both `pyproject.toml` and `stellars_jupyterlab_fixes/__init__.py`. Updated `.claude/CLAUDE.md` to current workspace template standard with `@import` directive, mandatory bans section, corrected Python version to >= 3.10, and complete list of all 7 fix dependencies including the 3 newer ones (other_file_type_menu_fix, server_proxy_launcher_fix, terminal_cpr_escape_fix)

@@ -27,6 +27,7 @@ pip install stellars_jupyterlab_fixes
 - [jupyterlab_jump_to_definition_fix](https://github.com/stellarshenson/jupyterlab_jump_to_definition_fix) - Fix "jump to definition" for notebooks using Jedi in kernel environment
 - [jupyterlab_markdown_switch_tab_scrolling_fix](https://github.com/stellarshenson/jupyterlab_markdown_switch_tab_scrolling_fix) - Prevent markdown scroll drift when switching tabs
 - [jupyterlab_markdown_viewer_toc_fix](https://github.com/stellarshenson/jupyterlab_markdown_viewer_toc_fix) - Fix broken TOC navigation and anchor links in Markdown Viewer
+- [jupyterlab_other_file_type_menu_fix](https://github.com/stellarshenson/jupyterlab_other_file_type_menu_fix) - Fix broken context menu for unregistered file types (LICENSE, .gitignore, Dockerfile)
 - [jupyterlab_server_proxy_launcher_fix](https://github.com/stellarshenson/jupyterlab_server_proxy_launcher_fix) - Fix SVG icon display for jupyter-server-proxy launchers in custom categories
 - [jupyterlab_terminal_cpr_escape_fix](https://github.com/stellarshenson/jupyterlab_terminal_cpr_escape_fix) - Fix CPR escape sequences appearing as literal text in idle terminals
 
