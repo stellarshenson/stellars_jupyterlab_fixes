@@ -13,7 +13,7 @@ These fixes address papercuts and annoyances in JupyterLab 4 that were bothering
 > [!WARNING]
 > These fixes monkey-patch JupyterLab internals and may break with future JupyterLab updates. Use at your own risk. If something explodes, you get to keep both pieces.
 
-*Yes, we wrote an entire metapackage just to fix scroll positions and font alignments. No, we don't have better things to do. Okay, we do, but here we are.*
+_Yes, we wrote an entire metapackage just to fix scroll positions and font alignments. No, we don't have better things to do. Okay, we do, but here we are._
 
 ## Installation
 
