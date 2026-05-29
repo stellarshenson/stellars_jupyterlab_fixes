@@ -15,3 +15,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 4. **Task - Add other_file_type_menu_fix and update config** (v1.0.9): Added `jupyterlab_other_file_type_menu_fix` dependency and refreshed project configuration<br>
    **Result**: Added `jupyterlab_other_file_type_menu_fix` to `pyproject.toml` dependencies and `README.md` included fixes list. Bumped version from 1.0.8 to 1.0.9 in both `pyproject.toml` and `stellars_jupyterlab_fixes/__init__.py`. Updated `.claude/CLAUDE.md` to current workspace template standard with `@import` directive, mandatory bans section, corrected Python version to >= 3.10, and complete list of all 7 fix dependencies including the 3 newer ones (other_file_type_menu_fix, server_proxy_launcher_fix, terminal_cpr_escape_fix)
+
+5. **Task - Add restore_terminals_fix dependency** (v1.0.15): Added `jupyterlab_restore_terminals_fix` as new metapackage dependency<br>
+   **Result**: Added `jupyterlab_restore_terminals_fix` to `pyproject.toml` dependencies and `README.md` included fixes list with description about restoring terminals' original working directories after workspace restore. Bumped version 1.0.14 to 1.0.15. Also removed stale `index.lock` file from `.git/modules` that was blocking git operations due to a previously crashed git process. Metapackage now aggregates 8 fixes total
