@@ -26,6 +26,7 @@ pip install stellars_jupyterlab_fixes
 - [jupyterlab_change_ui_font_size_fix](https://github.com/stellarshenson/jupyterlab_change_ui_font_size_fix) - Fix file browser alignment when changing UI font size
 - [jupyterlab_jump_to_definition_fix](https://github.com/stellarshenson/jupyterlab_jump_to_definition_fix) - Fix "jump to definition" for notebooks using Jedi in kernel environment
 - [jupyterlab_markdown_switch_tab_scrolling_fix](https://github.com/stellarshenson/jupyterlab_markdown_switch_tab_scrolling_fix) - Prevent markdown scroll drift when switching tabs
+- [jupyterlab_markdown_syntax_rendering_fix](https://github.com/stellarshenson/jupyterlab_markdown_syntax_rendering_fix) - Restore syntax-highlight colours in rendered Markdown fenced code blocks when no editor is open
 - [jupyterlab_markdown_viewer_toc_fix](https://github.com/stellarshenson/jupyterlab_markdown_viewer_toc_fix) - Fix broken TOC navigation and anchor links in Markdown Viewer
 - [jupyterlab_other_file_type_menu_fix](https://github.com/stellarshenson/jupyterlab_other_file_type_menu_fix) - Fix broken context menu for unregistered file types (LICENSE, .gitignore, Dockerfile)
 - [jupyterlab_restore_terminals_fix](https://github.com/stellarshenson/jupyterlab_restore_terminals_fix) - Restore terminals' original working directories after workspace restore

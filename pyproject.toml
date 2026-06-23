@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "stellars_jupyterlab_fixes"
-version = "1.0.15"
+version = "1.0.16"
 description = "Metapackage aggregating all Stellars JupyterLab fixes"
 readme = "README.md"
 license = {text = "MIT"}
@@ -28,6 +28,7 @@ dependencies = [
     "jupyterlab_change_ui_font_size_fix",
     "jupyterlab_jump_to_definition_fix",
     "jupyterlab_markdown_switch_tab_scrolling_fix",
+    "jupyterlab_markdown_syntax_rendering_fix",
     "jupyterlab_markdown_viewer_toc_fix",
     "jupyterlab_other_file_type_menu_fix",
     "jupyterlab_restore_terminals_fix",
