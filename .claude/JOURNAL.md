@@ -18,3 +18,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 5. **Task - Add restore_terminals_fix dependency** (v1.0.15): Added `jupyterlab_restore_terminals_fix` as new metapackage dependency<br>
    **Result**: Added `jupyterlab_restore_terminals_fix` to `pyproject.toml` dependencies and `README.md` included fixes list with description about restoring terminals' original working directories after workspace restore. Bumped version 1.0.14 to 1.0.15. Also removed stale `index.lock` file from `.git/modules` that was blocking git operations due to a previously crashed git process. Metapackage now aggregates 8 fixes total
+
+6. **Task - Add file_browser_column_width_fix dependency** (v1.0.17): Added `jupyterlab_file_browser_column_width_fix` to the metapackage and released it<br>
+   **Result**: Added the dependency to `pyproject.toml` and the included-fixes list in `README.md`, with the stale-column-width description. Synced `stellars_jupyterlab_fixes/__init__.py` from 1.0.10 to the pyproject version before the bump so the Makefile's two seds stay together. `make publish` raised 1.0.16 to 1.0.17 and uploaded the wheel and sdist to PyPI at https://pypi.org/project/stellars-jupyterlab-fixes/1.0.17/. Commit `89e57bd` pushed; workspace submodule gitlink bumped at `4f8dc57`. Metapackage now aggregates 9 fixes.
