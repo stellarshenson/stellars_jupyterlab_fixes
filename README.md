@@ -24,6 +24,7 @@ pip install stellars_jupyterlab_fixes
 ## Included Fixes
 
 - [jupyterlab_change_ui_font_size_fix](https://github.com/stellarshenson/jupyterlab_change_ui_font_size_fix) - Fix file browser alignment when changing UI font size
+- [jupyterlab_file_browser_column_width_fix](https://github.com/stellarshenson/jupyterlab_file_browser_column_width_fix) - Keep file browser names visible when the cached column width is stale
 - [jupyterlab_jump_to_definition_fix](https://github.com/stellarshenson/jupyterlab_jump_to_definition_fix) - Fix "jump to definition" for notebooks using Jedi in kernel environment
 - [jupyterlab_markdown_switch_tab_scrolling_fix](https://github.com/stellarshenson/jupyterlab_markdown_switch_tab_scrolling_fix) - Prevent markdown scroll drift when switching tabs
 - [jupyterlab_markdown_syntax_rendering_fix](https://github.com/stellarshenson/jupyterlab_markdown_syntax_rendering_fix) - Restore syntax-highlight colours in rendered Markdown fenced code blocks when no editor is open
