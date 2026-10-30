@@ -1,5 +1,8 @@
 # Stellars JupyterLab Fixes
 
+> [!IMPORTANT]
+> This bundle is DEPRECATED. [jupyterlab_core_patches_extension](https://github.com/stellarshenson/jupyterlab_core_patches_extension) carries all ten fixes in one extension, with one switch per fix. Uninstall this bundle and the ten packages it installs before installing the replacement. This repository stays published and frozen.
+
 [![GitHub Actions](https://github.com/stellarshenson/stellars_jupyterlab_fixes/actions/workflows/build.yml/badge.svg)](https://github.com/stellarshenson/stellars_jupyterlab_fixes/actions/workflows/build.yml)
 [![PyPI version](https://img.shields.io/pypi/v/stellars_jupyterlab_fixes.svg)](https://pypi.org/project/stellars_jupyterlab_fixes/)
 [![Total PyPI downloads](https://static.pepy.tech/badge/stellars_jupyterlab_fixes)](https://pepy.tech/project/stellars_jupyterlab_fixes)
